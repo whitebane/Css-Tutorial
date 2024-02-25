@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+    <style>
+     h1{
+        color: blue;
+     }
+
+     p {
+        color:red;
+     }
+
+     h1,p{
+        background-color: brown;
+     }
+
+     #logo{
+        color: yellow;
+     }
+
+     .info{
+        color: green;
+     }
+
+     #logo,.lead{
+        color: black;
+     }
+
+     a{
+        text-decoration: none;
+     }
+
+     ul li a{
+        text-decoration: overline;
+     }
+      
+      
+     *{
+        font-size: 30px;
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="logo">Logo</h1>
+        <ul>       
+               <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>              
+        </ul>
+    </header>
+    <h1>Header 2</h1>
+    <p class="lead info">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quaerat illo blanditiis. Reprehenderit, soluta, omnis optio excepturi consequuntur culpa libero doloremque nulla eveniet, necessitatibus magni vero enim sit blanditiis sunt.
+    </p>
+    <p class="info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor maxime eaque sapiente temporibus corrupti delectus ea totam neque! In amet reiciendis voluptatum hic enim fugit eveniet saepe laboriosam dolorum minus.
+    </p>
+</body>
+</html>
